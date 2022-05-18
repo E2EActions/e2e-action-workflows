@@ -1,8 +1,8 @@
 # # Triggers whenever a new bug is added 
 name: "Assign label and dri"
 on:
-#   issues:
-#     types: [opened]
+  issues:
+    types: [opened]
   workflow_dispatch:
 
 jobs:
